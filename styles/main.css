@@ -274,11 +274,15 @@ header .dead-link:hover {
     float: left;
     margin: 3rem .5rem;
     position: relative;
+    display: block;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .image-wrapper img {
-    max-width: 350px;
     display: block;
+    max-width: 350px;
+    object-fit: cover;
 }
 
 .card .overlay {
